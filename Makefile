@@ -29,3 +29,13 @@ day02_1: build
 day02_2: build
 	$(CC) $(LIBS) $(CFLAGS) day02_2.c -o build/day02_2
 	./build/day02_2 < $(DATA_PATH)/day02.txt
+
+.PHONY: day03_1
+day03_1: build
+	$(CC) $(LIBS) $(CFLAGS) day03_1.c -o build/day03_1
+	./build/day03_1 < $(DATA_PATH)/day03.txt
+
+.PHONY: day03_2
+day03_2: build
+	$(CC) $(LIBS) $(CFLAGS) day03_2.c -o build/day03_2
+	./build/day03_2 < $(DATA_PATH)/day03.txt
